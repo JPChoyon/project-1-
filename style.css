@@ -2,3 +2,26 @@
   margin: 0;
   padding: 0;
 }
+.navcontainer {
+  display: flex;
+  background-color: #424141;
+  justify-content: space-around;
+}
+.navimg {
+  display: flex;
+  justify-content: space-between;
+}
+.navimg img {
+  height: 39px;
+  width: 142px;
+  padding: 10px;
+}
+.listParent {
+  display: flex;
+}
+.listitem {
+  list-style: none;
+  margin-left: 10px;
+  color: white;
+  padding: 15px;
+}
